@@ -1,0 +1,29 @@
+apply plugin: 'application'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'java'
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+repositories {
+    jcenter()
+}
+
+
+
+dependencies {
+    compile files ('libraries/lib/gf-client.jar', 'libraries/lib/imqjmsra.jar')
+    compile 'javax.jms:javax.jms-api:2.0.1'
+}
+
+mainClassName = "com.rsk.Main"
+
+run {
+  if(project.hasProperty('args')){
+    args project.args.split(',')
+  }
+}

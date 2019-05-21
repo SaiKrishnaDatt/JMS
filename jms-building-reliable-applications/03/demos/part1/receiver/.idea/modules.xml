@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/receiver.iml" filepath="$PROJECT_DIR$/.idea/modules/receiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/receiver_main.iml" filepath="$PROJECT_DIR$/.idea/modules/receiver_main.iml" group="receiver" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/receiver_test.iml" filepath="$PROJECT_DIR$/.idea/modules/receiver_test.iml" group="receiver" />
+    </modules>
+  </component>
+</project>
